@@ -25,15 +25,15 @@ Data Science Institute, University of Toronto - Cohort 5 - Team Project 16
 
 ## Methodology
 
-### 1. Exploratory Data Analysis
+###     1. Exploratory Data Analysis
 
-### 2. Understanding the raw data
+###     2. Understanding the raw data
 
-### 3. Data Celaning and Processing
+###     3. Data Celaning and Processing
 
-### 4. Model Training and Development
+###     4. Model Training and Development
 
-### 5. Model Selection
+###     5. Model Selection
 
 ## Results
 
