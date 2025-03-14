@@ -1,0 +1,130 @@
+Delay Code,Category,Description
+EUAC,Mechanical/Electrical/Vehicle Equipment,Train HVAC malfunction or underperformance
+EUAL,Mechanical/Electrical/Vehicle Equipment,Issues with onboard or wayside AC power systems
+EUATC,Mechanical/Electrical/Vehicle Equipment,ATC equipment malfunction related to Rail Cars & Shops
+EUBK,Mechanical/Electrical/Vehicle Equipment,Faulty brake components or pneumatic issues
+EUBO,Mechanical/Electrical/Vehicle Equipment,Structural or body-related train car problems
+EUCA,Mechanical/Electrical/Vehicle Equipment,Problems with compressed air supply for brakes or doors
+EUCD,Mechanical/Electrical/Vehicle Equipment,Secondary delay from unresolved mechanical/electrical fault
+EUCH,Mechanical/Electrical/Vehicle Equipment,Older DC propulsion (chopper) control circuit failure
+EUCO,Mechanical/Electrical/Vehicle Equipment,Mechanical or electrical coupling failure between cars
+EUDO,Mechanical/Electrical/Vehicle Equipment,Door problems caused by faulty motors or sensors
+EUECD,Mechanical/Electrical/Vehicle Equipment,Line mechanic or ECD-related issue needing onsite intervention
+EUHV,Mechanical/Electrical/Vehicle Equipment,High-voltage system or circuitry failure
+EULT,Mechanical/Electrical/Vehicle Equipment,Interior or exterior train lighting system malfunction
+EULV,Mechanical/Electrical/Vehicle Equipment,Low-voltage power or battery supply issues
+EUME,Mechanical/Electrical/Vehicle Equipment,Human maintenance error by Rail Cars & Shops staff
+EUNEA,Mechanical/Electrical/Vehicle Equipment,Shortage of usable trains or equipment
+EUNT,Mechanical/Electrical/Vehicle Equipment,Reported equipment trouble but no defect found
+EUO,Mechanical/Electrical/Vehicle Equipment,Miscellaneous Rail Cars & Shops equipment issues
+EUOE,Mechanical/Electrical/Vehicle Equipment,Operational error by Rail Cars & Shops staff
+EUOPO,Mechanical/Electrical/Vehicle Equipment,OPTO non-train door monitoring failure (RC&S-related)
+EUPI,Mechanical/Electrical/Vehicle Equipment,Propulsion or traction power system failure
+EUSC,Mechanical/Electrical/Vehicle Equipment,Speed regulation or overspeed detection malfunction
+EUTL,Mechanical/Electrical/Vehicle Equipment,Trainline cable or inter-car communication failure
+EUTM,Mechanical/Electrical/Vehicle Equipment,Traction motor faults 
+EUTR,Mechanical/Electrical/Vehicle Equipment,Bogie/truck issues 
+EUTRD,Mechanical/Electrical/Vehicle Equipment,TR-series cab door malfunction
+EUVA,Mechanical/Electrical/Vehicle Equipment,Warning alarm systems failing or falsely activating
+EUVE,Mechanical/Electrical/Vehicle Equipment,Work vehicle or non-revenue car breakdown
+EUYRD,Mechanical/Electrical/Vehicle Equipment,Yard/carhouse operational problems causing delays
+MUATC,Signaling/Communication/Power,Delays from the ATC project work or testing
+MUCL,Operations/Staffing/Scheduling,Divisional clerk scheduling or paperwork error
+MUD,Door/Passenger/Platform Incidents,Passenger interference or obstruction of train doors
+MUDD,Door/Passenger/Platform Incidents,Debris caught in doors preventing closure
+MUEC,Track/Infrastructure/Debris,Engineering or construction issues not in other categories
+MUESA,Operations/Staffing/Scheduling,No operator immediately available (staff shortage)
+MUFM,Weather/External,Severe external event (e.g. extreme weather) beyond TTC control
+MUFS,Fire/Smoke/Emergency,Fire/Smoke Plan B activated due to an external source
+MUGD,Miscellaneous,General or minor unclassified delay
+MUI,Medical/Injury/Safety,Ill or injured passenger on train requiring transport
+MUIE,Medical/Injury/Safety,Employee injury requiring medical attention
+MUIR,Medical/Injury/Safety,Ill passenger on train who refuses medical aid
+MUIRS,Medical/Injury/Safety,Ill passenger in station who refuses medical aid
+MUIS,Medical/Injury/Safety,Ill passenger in station requiring transport
+MULD,Operations/Staffing/Scheduling,Labour dispute or strike action in the subway
+MUNOA,Operations/Staffing/Scheduling,No operator available (not emergency absence related)
+MUO,Miscellaneous,Other unclassified operational or technical delay
+MUODC,Track/Infrastructure/Debris,Overhead door contact or malfunction in yard/facility
+MUPAA,Door/Passenger/Platform Incidents,Passenger alarm activated but no actual issue found
+MUPLA,Fire/Smoke/Emergency,Fire/Smoke Plan A for localized or lower-level incidents
+MUPLB,Fire/Smoke/Emergency,Fire/Smoke Plan B due to internal TTC source
+MUPLC,Fire/Smoke/Emergency,Fire/Smoke Plan C requiring major response or shutdown
+MUPR1,Door/Passenger/Platform Incidents,Priority One where train contacts person on track
+MUSAN,Door/Passenger/Platform Incidents,Train is unsanitary or unsafe for passengers
+MUSC,Miscellaneous,Unspecified speed control or slow order
+MUTD,Operations/Staffing/Scheduling,Delays due to staff training or operator instruction
+MUTO,Operations/Staffing/Scheduling,Misc. transportation delay (employee non-chargeable)
+MUWEA,Weather/External,Weather-related slowdown or precaution
+MUWR,Operations/Staffing/Scheduling,Work refusal by staff (safety or labor reasons)
+PUATC,Signaling/Communication/Power,Miscellaneous ATC-related signal issue
+PUCBI,Signaling/Communication/Power,Central logic controller failure managing signals
+PUCSC,Signaling/Communication/Power,Signal control problem (track circuit or false aspect)
+PUCSS,Signaling/Communication/Power,Central office signaling system malfunction
+PUDCS,Signaling/Communication/Power,Data communications system failure to trains or wayside
+PUMEL,Track/Infrastructure/Debris,Escalator/elevator incident at station impacting service
+PUMO,Track/Infrastructure/Debris,Station infrastructure or operational issue
+PUMST,Track/Infrastructure/Debris,Incident on station stairway requiring checks or response
+PUOPO,Signaling/Communication/Power,OPTO train door monitoring (communications) failure
+PUSAC,Signaling/Communication/Power,Axle counter block failure for train detection
+PUSBE,Signaling/Communication/Power,Beacon failure used for train position or speed references
+PUSCA,Signaling/Communication/Power,SCADA system problems monitoring power or signals
+PUSCR,Signaling/Communication/Power,Subway car radio communication fault
+PUSEA,Signaling/Communication/Power,Emergency Alarm System (EAS) breakdown
+PUSI,Signaling/Communication/Power,Signal or related hardware failure
+PUSIO,Signaling/Communication/Power,Smart I/O module failure in advanced control systems
+PUSIS,Signaling/Communication/Power,Signals affected by weather
+PUSLC,Signaling/Communication/Power,Signals line or zone controller malfunction
+PUSNT,Signaling/Communication/Power,Signal problem reported but no issue found
+PUSO,Signaling/Communication/Power,Misc. S/E/C (Signals/Electrical/Comms) department issue
+PUSRA,Signaling/Communication/Power,Subway radio system fault affecting multiple trains
+PUSSW,Signaling/Communication/Power,Track switch failure linked to signal control
+PUSTC,Signaling/Communication/Power,Track circuit malfunction preventing proper detection
+PUSTP,Signaling/Communication/Power,Traction power or related components failure
+PUSTS,Signaling/Communication/Power,Train stop mechanism malfunction or false activation
+PUSWZ,Signaling/Communication/Power,Work zone setup causing issues with signals
+PUSZC,Signaling/Communication/Power,Signal zone controller failure affecting a local area
+PUTCD,Track/Infrastructure/Debris,T & S contractor issues causing delays
+PUTD,Track/Infrastructure/Debris,Track-level debris that can be removed quickly
+PUTDN,Track/Infrastructure/Debris,Large or hazardous debris requiring extended removal
+PUTIJ,Track/Infrastructure/Debris,Insulated joint fault in track circuit
+PUTIS,Weather/External,Ice or snow buildup impacting track or equipment
+PUTNT,Track/Infrastructure/Debris,Track & Structures fault reported but no trouble found
+PUTO,Track/Infrastructure/Debris,Unspecified T & S (Track/Structures) issue
+PUTOE,Track/Infrastructure/Debris,T & S operator or contractor error
+PUTR,Track/Infrastructure/Debris,Defective or damaged rail needing repair
+PUTS,Track/Infrastructure/Debris,Station or tunnel structural issue delaying service
+PUTSC,Signaling/Communication/Power,Signal control problem specifically tied to track hardware
+PUTSM,Track/Infrastructure/Debris,Mechanical/electrical track switch problem (not signal-related)
+PUTTC,Track/Infrastructure/Debris,Track circuit issues (defective bolts/bonding)
+PUTTP,Signaling/Communication/Power,Third-rail or traction power distribution malfunction
+PUTWZ,Track/Infrastructure/Debris,Work zone complications on the track causing slow orders
+SUAE,Security/Policing,Assault on a TTC employee
+SUAP,Security/Policing,Assault involving a patron
+SUBT,Security/Policing,Threat of explosive device on TTC property
+SUCOL,Security/Policing,Collector booth alarm activation needing security
+SUDP,Security/Policing,Disorderly passenger requiring intervention
+SUEAS,Security/Policing,Station emergency alarm activated
+SUG,Security/Policing,Graffiti or vandalism needing cleanup/security response
+SUO,Security/Policing,Misc. passenger issue requiring security or staff
+SUPOL,Security/Policing,Train held by police for external investigation
+SUROB,Security/Policing,Robbery on TTC property
+SUSA,Security/Policing,Sexual assault allegation
+SUSP,Security/Policing,Suspicious package prompting emergency protocols
+SUUT,Security/Policing,Unauthorized individual at track level
+TUATC,Transportation/Operator,Operator error or procedure issue with ATC usage
+TUCC,Transportation/Operator,Transit control staff error or dispatch problem
+TUDOE,Transportation/Operator,Doors opened incorrectly due to operator action
+TUKEY,Transportation/Operator,Two drum switch keys activated in error
+TUML,Transportation/Operator,Train held/stored on main line unexpectedly
+TUMVS,Transportation/Operator,Operator violated a signal or restriction
+TUNIP,Transportation/Operator,Operator not present or late to the cab
+TUNOA,Operations/Staffing/Scheduling,No operator available for assigned run
+TUO,Transportation/Operator,Other miscellaneous operator or dispatch issue
+TUOPO,Transportation/Operator,OPTO operator-related error
+TUOS,Transportation/Operator,Operator overshoots platform
+TUS,Transportation/Operator,Crew unable to maintain schedule
+TUSC,Transportation/Operator,Operator overspeeding or ignoring speed limits
+TUSET,Transportation/Operator,Train controls improperly shut down
+TUST,Weather/External,Storm trains or slow orders due to severe weather
+TUSUP,Transportation/Operator,Supervisory error causing service disruption
