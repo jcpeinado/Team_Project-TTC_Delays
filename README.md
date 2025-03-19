@@ -29,7 +29,7 @@ With the purpose of achiving our objecting we have developed the following metho
 
 In this section, we:
 
-**Load the Dataset:** 
+**Load the Dataset:**  
 Import the data (e.g., from a CSV) into a pandas DataFrame.
 
 **Initial Investigation:**
