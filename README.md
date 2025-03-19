@@ -24,42 +24,37 @@ Data Science Institute, University of Toronto - Cohort 5 - Team Project 16
 ## Objectives
 
 ## Methodology
-With the purpose of achiving our objecting we have developed the following methodology:
-###     1. Exploratory Data Analysis
+To achieve our objective, we developed the following methodology:
 
-In this section, we:
+### 1. Exploratory Data Analysis
 
 **Load the Dataset:**  
-Import the data (from a CSV) into a pandas DataFrame.
+We imported the data (from a CSV file) into a pandas DataFrame.
 
 **Initial Investigation:**
-- Inspect the dimensions of the data in our raw data frame we had a size of (28571, 10).
-![Infor_df](02_data_processing/img/02_info_df.jpg)
-- Display the first few rows to understand the format and general structure. In this step we could identify ouer target variable: `Min Delay` and our categorical features [`Date`, `Time`, `Code`, `Bound`, `Line`, `Vehicle`]
+- We inspected the dimensions of the dataset; the raw DataFrame had a shape of (28,571 rows × 10 columns).  
+  ![Infor_df](02_data_processing/img/02_info_df.jpg)
+- We displayed the first few rows to understand the format and general structure. In this step, we identified our target variable: `Min Delay`, and our categorical features: [`Date`, `Time`, `Code`, `Bound`, `Line`, `Vehicle`].
 
 **Descriptive Statistics:**
-- Calculate summary statistics (mean, median, standard deviation) to get a sense of the variable distributions.
-![Summary_01](02_data_processing/img/01_DP.jpg)
+- We calculated summary statistics (mean, median, standard deviation) to gain insight into the distribution of each variable.  
+  ![Summary_01](02_data_processing/img/01_DP.jpg)
+- We looked for anomalies. In our case, `Min Delay` contains outliers (e.g., 700 minutes), while 75% of observations range between 1 and 18 minutes.  
+  ![Boxplot_MinDelay](02_data_processing/img/03_MinDelay_boxplot.png)
 
-- Look for anomalies in our case the `Min Delay` contains outliers like 700 min, where 75% of our observaitons are in the range of 1 to 18 min.
+**Visual Explorations:**
 
-![Boxplot_MinDelay](02_data_processing/img/03_MinDelay_boxplot.png)
-
-
-**Visual Explorations:**  
-
-**Potential Correlation in Min Gap and Min Delay**
-![Heat_Map](02_data_processing/img/04_matrix.png)  
-![Scatter](02_data_processing/img/05_scatter.png)  
-
+- **Potential Correlation in Min Gap and Min Delay**  
+  ![Heat_Map](02_data_processing/img/04_matrix.png)  
+  ![Scatter](02_data_processing/img/05_scatter.png)
 
 **Key Observations:**  
-- **Correlation in Min Gap and Min Delay:** There is a strong correlation between these tow features.
-- **Codes:** The delay codes will be grouped in an `category` column that will help us to classify the delays.
-- **Missing Values:** The missing values will be handle in the Data Cleaning Section.
-- **Feature with low Importance:** Categorical features like `Vehicle` has low importance in our analysis.
-- **SRT Line:** SRT line is out of the scope since is not in service.
-- **Note:** Only 2024 and 2025 data was considered in this project.
+- **Correlation in Min Gap and Min Delay:** There is a strong correlation between these two features.  
+- **Codes:** The delay codes will be grouped into a `category` column to help classify the delays.  
+- **Missing Values:** Missing values will be handled in the Data Cleaning section.  
+- **Feature with Low Importance:** The categorical feature `Vehicle` has low importance for our analysis.  
+- **SRT Line:** The SRT line is out of scope because it is not in service.  
+- **Note:** Only data from 2024 and 2025 was considered for this project.
 
 ###     2. Understanding the raw data
 
