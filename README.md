@@ -24,7 +24,7 @@ Data Science Institute, University of Toronto - Cohort 5 - Team Project 16
 ## Objectives
 
 ## Methodology
-
+With the purpose of achiving our objecting we have developed the following methodology:
 ###     1. Exploratory Data Analysis
 
 ###     2. Understanding the raw data
