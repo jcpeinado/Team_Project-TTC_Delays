@@ -68,9 +68,12 @@ We imported the data (from a CSV file) into a pandas DataFrame.
 | `Bound`      | The direction in which the train was traveling. |
 | `Line`       | The transit line on which the delay occurred.   |
 | `Vehicle`    | The train number or identifier.                 |
-| `Min Gaap`   | The time in minutues for the next car           |
+| `Min Gap`   | The time in minutues for the next car           |
 
 To understand the Codes, we analyze the [`ttc-subway-delay-codes.csv`](01_raw_data/ttc-subway-delay-codes.csv)
+
+We have grouped the codes in categories, as shown in the following file: [`code_category_description.csv`](02_data_processing/code_category_description.csv)  
+
 ###     3. Data Celaning and Processing
 
 ###     4. Model Training and Development
