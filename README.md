@@ -41,13 +41,17 @@ Import the data (from a CSV) into a pandas DataFrame.
 - Calculate summary statistics (mean, median, standard deviation) to get a sense of the variable distributions.
 ![Summary_01](02_data_processing/img/01_DP.jpg)
 
-- Look for anomalies: in our case the `Min Delay` contains outliers like 700 min, where 75% of our observaitons are in the range of 1 to 18 min.
+- Look for anomalies in our case the `Min Delay` contains outliers like 700 min, where 75% of our observaitons are in the range of 1 to 18 min.
 
 ![Boxplot_MinDelay](02_data_processing/img/03_MinDelay_boxplot.png)
 
 
 **Visual Explorations:**  
-Generate plots such as histograms, box plots, or density plots to observe the distribution of numerical variables.
+
+**Potential Correlation in Min Gap and Min Delay**
+![Heat_Map](02_data_processing/img/04_matrix.png)  
+![Scatter](02_data_processing/img/05_scatter.png)  
+
 Create scatter plots or correlation heatmaps to identify relationships between variables.
 Look for distinct patterns or trends that could inform subsequent cleaning or modeling steps.
 Key Observations:
