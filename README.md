@@ -6,11 +6,26 @@ Data Science Institute, University of Toronto - Cohort 5 - Team Project 16
 
 - [Requirements](#requirements)
 - [Introduction](#introduction)
-As part of the Data Science Certificate program at the University of Toronto’s Data Sciences Institute, our capstone project focuses on analyzing TTC Subway Delay Data from 2024 and 2025. Combining advanced data science methodologies with our analytical expertise, we aim to solve a critical operational challenge: accurately classifying subway delay risks to enhance decision-making and operational effectiveness.
-The central goal of this project is to build a predictive model that classifies delay risks at specific stations (Station X) and subway lines (Line Y) into two categories—Low or High—by evaluating factors such as the month (season), day, and rush-hour timing.
+
 
 - [Objectives](#objectives)
-Project Objectives
+- [Methodology](#methodology)
+  - [1. Exploratory Data Analysis](#1-exploratory-data-analysis)
+  - [2. Understanding the Raw Data](#2-understanding-the-raw-data)
+  - [3. Data Cleaning and Processing](#3-data-cleaning-and-processing)
+  - [4. Model Training and Development](#4-model-training-and-development)
+  - [5. Model Selection](#5-model-selection)
+- [Results](#results)
+- [Members](#members)
+
+
+## Requirements
+
+## Introduction
+As part of the Data Science Certificate program at the University of Toronto’s Data Sciences Institute, our capstone project focuses on analyzing TTC Subway Delay Data from 2024 and 2025. Combining advanced data science methodologies with our analytical expertise, we aim to solve a critical operational challenge: accurately classifying subway delay risks to enhance decision-making and operational effectiveness.
+The central goal of this project is to build a predictive model that classifies delay risks at specific stations (Station X) and subway lines (Line Y) into two categories—Low or High—by evaluating factors such as the month (season), day, and rush-hour timing.
+## Objectives
+roject Objectives
 •	Develop a predictive classification model to determine subway delay risks.
 •	Analyze historical subway delay data to identify key factors influencing delays.
 •	Evaluate model accuracy and effectiveness in predicting delay risks.
@@ -41,23 +56,6 @@ Data Analytics and Technology Partners
 •	Demonstrating Data Science Value: Highlights practical applications of advanced data science techniques to solve real-world transit challenges effectively.
 •	Driving Innovation: Promotes continuous improvement in predictive analytics, technological advancements, and operational efficiency within transit systems.
 Our project, through rigorous analysis and predictive modeling, aims to deliver actionable insights that significantly improve the reliability and operational excellence of the TTC subway system, benefiting all involved stakeholders.
-
-- [Methodology](#methodology)
-  - [1. Exploratory Data Analysis](#1-exploratory-data-analysis)
-  - [2. Understanding the Raw Data](#2-understanding-the-raw-data)
-  - [3. Data Cleaning and Processing](#3-data-cleaning-and-processing)
-  - [4. Model Training and Development](#4-model-training-and-development)
-  - [5. Model Selection](#5-model-selection)
-- [Results](#results)
-- [Members](#members)
-
-
-## Requirements
-
-## Introduction
-
-## Objectives
-
 ## Methodology
 
 ###     1. Exploratory Data Analysis
