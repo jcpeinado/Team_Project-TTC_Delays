@@ -30,19 +30,23 @@ With the purpose of achiving our objecting we have developed the following metho
 In this section, we:
 
 **Load the Dataset:**  
-Import the data (e.g., from a CSV) into a pandas DataFrame.
+Import the data (from a CSV) into a pandas DataFrame.
 
 **Initial Investigation:**
 - Inspect the dimensions of the data in our raw data frame we had a size of (28571, 10).
+![Infor_df](02_data_processing/img/02_info_df.jpg)
 - Display the first few rows to understand the format and general structure. In this step we could identify ouer target variable: `Min Delay` and our categorical features [`Date`, `Time`, `Code`, `Bound`, `Line`, `Vehicle`]
 
 **Descriptive Statistics:**
-- Calculate summary statistics (mean, median, standard deviation, etc.) to get a sense of the variable distributions.
+- Calculate summary statistics (mean, median, standard deviation) to get a sense of the variable distributions.
 ![Summary_01](02_data_processing/img/01_DP.jpg)
 
-- Look for anomalies (e.g., extremely high or low values) that might hint at data errors.
+- Look for anomalies: in our case the `Min Delay` contains outliers like 700 min, where 75% of our observaitons are in the range of 1 to 18 min.
 
-**Visual Explorations:**
+![Boxplot_MinDelay](02_data_processing/img/03_MinDelay_boxplot.png)
+
+
+**Visual Explorations:**  
 Generate plots such as histograms, box plots, or density plots to observe the distribution of numerical variables.
 Create scatter plots or correlation heatmaps to identify relationships between variables.
 Look for distinct patterns or trends that could inform subsequent cleaning or modeling steps.
