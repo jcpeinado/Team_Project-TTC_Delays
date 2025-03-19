@@ -58,6 +58,19 @@ We imported the data (from a CSV file) into a pandas DataFrame.
 
 ###     2. Understanding the raw data
 
+
+| Feature       | Description                                      |
+|--------------|--------------------------------------------------|
+| `Min Delay`  | The delay in minutes for each train.            |
+| `Date`       | The date when the delay occurred.               |
+| `Time`       | The time of the delay event.                    |
+| `Code`       | The reason code assigned to the delay.          |
+| `Bound`      | The direction in which the train was traveling. |
+| `Line`       | The transit line on which the delay occurred.   |
+| `Vehicle`    | The train number or identifier.                 |
+| `Min Gaap`   | The time in minutues for the next car           |
+
+To understand the Codes, we analyze the [`ttc-subway-delay-codes.csv`](01_raw_data/ttc-subway-delay-codes.csv)
 ###     3. Data Celaning and Processing
 
 ###     4. Model Training and Development
