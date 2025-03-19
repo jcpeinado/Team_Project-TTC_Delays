@@ -52,10 +52,14 @@ Import the data (from a CSV) into a pandas DataFrame.
 ![Heat_Map](02_data_processing/img/04_matrix.png)  
 ![Scatter](02_data_processing/img/05_scatter.png)  
 
-Create scatter plots or correlation heatmaps to identify relationships between variables.
-Look for distinct patterns or trends that could inform subsequent cleaning or modeling steps.
-Key Observations:
-Identify any patterns in the data—such as skewed distributions, clusters of points, or outlier values—that warrant further investigation or special treatment in later steps.
+
+**Key Observations:**  
+- **Correlation in Min Gap and Min Delay:** There is a strong correlation between these tow features.
+- **Codes:** The delay codes will be grouped in an `category` column that will help us to classify the delays.
+- **Missing Values:** The missing values will be handle in the Data Cleaning Section.
+- **Feature with low Importance:** Categorical features like `Vehicle` has low importance in our analysis.
+- **SRT Line:** SRT line is out of the scope since is not in service.
+- **Note:** Only 2024 and 2025 data was considered in this project.
 
 ###     2. Understanding the raw data
 
