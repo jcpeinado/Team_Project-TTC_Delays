@@ -29,7 +29,7 @@ To achieve our objective, we developed the following methodology:
 ### 1. Exploratory Data Analysis
 
 **Load the Dataset:**  
-We imported the data (from a CSV file) into a pandas DataFrame. (Name the file)
+We imported the data (from a CSV file) into a pandas DataFrame. [`01_exploratory_data_analysis.csv`](02_data_processing/01_exploratory_data_analysis.ipynb)  
 
 **Initial Investigation:**
 - We inspected the dimensions of the dataset; the raw DataFrame had a shape of (28,571 rows × 10 columns).  
@@ -90,7 +90,7 @@ We have grouped the codes in categories, as shown in the following file: [`code_
 
 - Olga Demenina
 
-- Omer
+- Omer Khan
 
 - Rashita Makkar
 
