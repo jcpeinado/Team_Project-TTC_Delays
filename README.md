@@ -33,20 +33,20 @@ We imported the data (from a CSV file) into a pandas DataFrame. (Name the file)
 
 **Initial Investigation:**
 - We inspected the dimensions of the dataset; the raw DataFrame had a shape of (28,571 rows × 10 columns).  
-  ![Infor_df](02_data_processing/img/02_info_df.jpg)
+  ![Infor_df](img/01_exploratory_data/02_info_df.jpg)
 - We displayed the first few rows to understand the format and general structure. In this step, we identified our target variable: `Min Delay`, and our categorical features: [`Date`, `Time`, `Code`, `Bound`, `Line`, `Vehicle`].
 
 **Descriptive Statistics:**
 - We calculated summary statistics (mean, median, standard deviation) to gain insight into the distribution of each variable.  
-  ![Summary_01](02_data_processing/img/01_DP.jpg)
+  ![Summary_01](img/01_exploratory_data/01_DP.jpg)
 - We looked for anomalies. In our case, `Min Delay` contains outliers (e.g., 700 minutes), while 75% of observations range between 1 and 18 minutes.  
-  ![Boxplot_MinDelay](02_data_processing/img/03_MinDelay_boxplot.png)
+  ![Boxplot_MinDelay](img/03_MinDelay_boxplot.png)
 
 **Visual Explorations:**
 
 - **Potential Correlation in Min Gap and Min Delay**  
-  ![Heat_Map](02_data_processing/img/04_matrix.png)  
-  ![Scatter](02_data_processing/img/05_scatter.png)
+  ![Heat_Map](img/01_exploratory_data/04_matrix.png)  
+  ![Scatter](img/01_exploratory_data/05_scatter.png)
 
 **Key Observations:**  
 - **Correlation in Min Gap and Min Delay:** There is a strong correlation between these two features.  
