@@ -267,7 +267,7 @@ The 80% of the delays are caused by:
 
 * There is a strong linear regression correlation between the Delay and the Gap numeric variables
 
-[LR_Delay_Gap](/img/02_results/04_linear_regression_correlation.jpg)
+![LR_Delay_Gap](/img/02_results/04_linear_regression_correlation.jpg)
 
 
 **Conclusion:**
