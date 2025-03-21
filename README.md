@@ -177,6 +177,29 @@ The  testcase saved at directory   '../02_data_processing/02_model_training.ipyn
 
 ###     5. Model Selection
 
+
+**1. Binary Classification Focus**  
+The primary aim of the model is to determine whether a particular outcome (e.g., delay vs. no delay) will occur. Logistic Regression is specifically designed for binary classification, mapping inputs to a probability between 0 and 1. As such, it aligns well with scenarios where the dependent variable is a yes/no or true/false type of outcome.
+
+**2. Suitability for Categorical Predictors**  
+A significant portion of the dataset consists of categorical variables. Logistic Regression readily handles categorical data through encoding techniques such as one-hot encoding. This approach permits the model to learn how each category influences the log-odds of the target outcome. Furthermore, the model’s observed accuracy suggests that the chosen encoding and feature preparation steps effectively leverage the categorical information.
+
+**3. Model Interpretability**  
+Unlike certain more complex methods (e.g., neural networks or ensemble models), Logistic Regression offers transparent coefficients indicating the contribution of each feature (or category) to the probability of the outcome. This characteristic supports clearer communication of model results to non-technical stakeholders, fostering trust and understanding in how decisions are reached.
+
+**4. Computational Efficiency**  
+Compared to other classification algorithms, Logistic Regression is relatively fast to train and update. This efficiency is particularly beneficial for projects that require frequent re-training or real-time analytics, as it reduces both computational overhead and latency during predictive operations.
+
+**5. Probability Outputs**  
+Logistic Regression natively produces probability estimates, which facilitate a granular understanding of the model’s confidence in each classification. This feature also allows practitioners to adjust the classification threshold as needed, depending on the balance of priorities, such as sensitivity vs. specificity.
+
+**6. Resilience to Data Imperfections**  
+When combined with regularization, Logistic Regression can handle moderate levels of noise and outliers. The model’s performance indicates that any violations of assumptions (e.g., perfect linear separability) are not severe enough to impede accuracy, affirming its suitability within the current data context.
+
+
+**Conclusion**  
+Given the project’s focus on a binary outcome, the presence of numerous categorical features, and the need for both interpretability and computational efficiency, Logistic Regression emerges as a strong methodological choice. The decent accuracy achieved further validates its effectiveness for this classification task.
+
 The model is trained with Logistic regression model.
 
 Create a model pipeline - steps to perform:
