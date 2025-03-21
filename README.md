@@ -86,7 +86,7 @@ We imported the data (from a CSV file) into a pandas DataFrame. [`01_exploratory
 - We calculated summary statistics (mean, median, standard deviation) to gain insight into the distribution of each variable.  
   ![Summary_01](img/01_exploratory_data/01_DP.jpg)
 - We looked for anomalies. In our case, `Min Delay` contains outliers (e.g., 700 minutes), while 75% of observations range between 1 and 18 minutes.  
-  ![Boxplot_MinDelay](img/03_MinDelay_boxplot.png)
+  ![Boxplot_MinDelay](img/01_exploratory_data/03_MinDelay_boxplot.png)
 
 **Visual Explorations:**
 
