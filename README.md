@@ -216,7 +216,33 @@ The delays realted to those categories causing service interruptions during the 
 
 * Month - July: The month of July stands out as a period with heightened delays. This could be due to seasonal factors, such as increased tourism or special events, which elevate passenger volumes. Additionally, weather conditions such as summer storms may impact service reliability during this time.
 
-Conclusion:
+* Based on the Paretto Chart and wroking with the clean data, we could identify the categories that causes the 80% of our delays.
+
+![Paretto](/img/02_results/01_80-20.png)
+
+The 80% of the delays are caused by:
+
+- Security/Policing Issues
+- Door/Passenger/Platform Incidents
+- Signaling/Communication/Power
+- Medical/Injury/Safety
+- Transportation/Operator
+
+* Top 10 Dealy Average in min by Station
+
+![Delay_by_Station_Mean](/img/02_results/02_mean_delay_by_station.png)
+
+* Top 10 Delay Average in min by Category
+
+![Delay_by_Categ_Mean](/img/02_results/03_mean_delay_cat.png)
+
+* There is a strong linear regression correlation between the Delay and the Gap numeric variables
+
+[LR_Delay_Gap](/img/02_results/04_linear_regression_correlation.jpg)
+
+
+
+**Conclusion:**
 The findings underscore the multifaceted nature of TTC delays, influenced by operational, behavioral, and temporal factors. To address these issues, targeted strategies such as improving passenger education, optimizing train schedules, and enhancing track and platform maintenance can be implemented. Recognizing the prominence of specific days and months in contributing to delays also enables more efficient allocation of resources to manage anticipated disruptions.
 
 ## Members
