@@ -25,6 +25,10 @@ Data Science Institute, University of Toronto - Cohort 5 - Team Project 16
 
 Target Audience
 
+
+
+
+
 •	What are the most common causes of subway delays?
 •	How do delay patterns vary by time of day or day of the week?
 •	Are there any seasonal trends in subway delays?
@@ -50,7 +54,7 @@ Shap: For model explainability, to analyze how individual features contribute to
 * Company:The Toronto subway, operated by the TTC (Toronto Transit Commission), consists of three lines: Line 1 (Yonge-University), Line 2 (Bloor-Danforth), and Line 4 (Sheppard). 
 * Data Points: 28,571 entries 
 * Adjustments: 17,653 entries in dataset 'df_delay.csv'
-* Additional source: 'code_category_description.csv' (130 entries)
+* Additional source: file 'code_category_description.csv' (130 entries)
 
 
 
@@ -78,7 +82,10 @@ Categories :
 * Transportation/Operator: Operator-related issues like overshooting platforms (TUOS) or procedural errors (TUATC).
 * Miscellaneous: General or uncategorized delays (MUGD).
 
-###     3. Data Celaning and Processing
+
+
+
+###     3. Data Cleaning and Processing
 
 Data Cleaning for the Team Project TTC Delay
 
@@ -96,18 +103,58 @@ Files Used:
 3. code_category_description.csv 
 - file to categorize various delay codes related to transportation operations
 
-
+All steps for data Cleaning and Processing represented in the file  '../02_data_processing/01_data_cleaning.ipynb'
 
 
 ###     4. Model Training and Development
 
-
+The model is trained with Logistic regression model.
+The  testcase saved at directory   '../02_data_processing/02_model_training.ipynb'.
 
 
 ###     5. Model Selection
+The model is trained with Logistic regression model.
+
+Create a model pipeline - steps to perform:
+* Split the dataset into training and testing subsets 
+* Defining transformations for numeric features
+* Defining transformations for categorical features
+* Add a step labelled 'preprocessor' and assign the ColumnTransformer from the previous section.
+* Import the Logistic Regression model from scikit-learn
+* Initialize the Logistic Regression model with a random state for reproducibility
+* Calculate the accuracy of the model on the test dataset
+* Visualize the importance of the model features
+
+
 
 ## Results
+After the processing according to results based on testing set the model correctly classified approximately as 61.20% of the instances in the test set.
+The analysis of feature importance from the model highlights several key factors that significantly contribute to TTC delays. Each of these factors is discussed below to provide insights into their influence:
+ - Min Gap
+ - Bound
+ - Line
+ - Category of incident
+ - Day if the week
+ - Month 
+ 
 
+* Min Gap: The "Min Gap" feature reflects the interval between consecutive trains. A smaller or irregular gap can lead to congestion on the line, increasing the likelihood of delays. This variable’s high importance suggests that maintaining consistent train intervals is critical for mitigating delays and ensuring smooth operations.
+
+* The Cagetgories having the max impact of TTS dealay are:
+- Doors/Passengers/Platform Incidents
+- Medical Injuries/Safety
+- Safety/Policing
+- Infracstructure/Debries
+The delays realted to those categories causing service interruptions during the process
+
+* Line 'SHP' (Sheppard) - identified as the most impacted by delays. This could be attributed to the line's operational characteristics, such as fewer trains or limited infrastructure capacity, making it more sensitive to disruptions.
+
+* Day of the Week - Saturday: The model identified Saturdays as a key day for increased delays. This trend may be attributed to higher maintenance works done during weekends, coupled with a reduced service schedule, making the system more susceptible to disruptions.
+
+* Month - July: The month of July stands out as a period with heightened delays. This could be due to seasonal factors, such as increased tourism or special events, which elevate passenger volumes. Additionally, weather conditions such as summer storms may impact service reliability during this time.
+
+Conclusion:
+The findings underscore the multifaceted nature of TTC delays, influenced by operational, behavioral, and temporal factors. To address these issues, targeted strategies such as improving passenger education, optimizing train schedules, and enhancing track and platform maintenance can be implemented. Recognizing the prominence of specific days and months in contributing to delays also enables more efficient allocation of resources to manage anticipated disruptions.
 ## Members
 
 - Julian Peinado
