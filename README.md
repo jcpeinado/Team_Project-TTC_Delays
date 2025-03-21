@@ -194,6 +194,8 @@ Create a model pipeline - steps to perform:
 After the processing according to results based on testing set the model correctly classified approximately as 61.20% of the instances in the test set.
 The analysis of feature importance from the model highlights several key factors that significantly contribute to TTC delays. Each of these factors is discussed below to provide insights into their influence:
 
+[Model_Results](/img/02_results/03_model_features.png)
+
  - Min Gap
  - Bound
  - Line
@@ -236,10 +238,13 @@ The 80% of the delays are caused by:
 
 ![Delay_by_Categ_Mean](/img/02_results/03_mean_delay_cat.png)
 
+* Top 10 Delay Average in min by Month
+
+![Delay_by_Categ_Mean](/img/02_results/05_mean_delay_by_month.png)
+
 * There is a strong linear regression correlation between the Delay and the Gap numeric variables
 
 [LR_Delay_Gap](/img/02_results/04_linear_regression_correlation.jpg)
-
 
 
 **Conclusion:**
