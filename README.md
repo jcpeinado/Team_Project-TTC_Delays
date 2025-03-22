@@ -179,7 +179,7 @@ The  testcase saved at directory   '../02_data_processing/02_model_training.ipyn
 
 
 **1. Binary Classification Focus**  
-The primary aim of the model is to determine whether a particular outcome (e.g., delay vs. no delay) will occur. Logistic Regression is specifically designed for binary classification, mapping inputs to a probability between 0 and 1. As such, it aligns well with scenarios where the dependent variable is a yes/no or true/false type of outcome.
+The primary aim of the model is to determine whether a particular outcome (e.g., high delay risk vs. low delay risk) will occur. Logistic Regression is specifically designed for binary classification, mapping inputs to a probability between 0 and 1. As such, it aligns well with scenarios where the dependent variable is a yes/no or true/false type of outcome.
 
 **2. Suitability for Categorical Predictors**  
 A significant portion of the dataset consists of categorical variables. Logistic Regression readily handles categorical data through encoding techniques such as one-hot encoding. This approach permits the model to learn how each category influences the log-odds of the target outcome. Furthermore, the model’s observed accuracy suggests that the chosen encoding and feature preparation steps effectively leverage the categorical information.
