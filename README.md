@@ -241,7 +241,7 @@ The delays realted to those categories causing service interruptions during the 
 
 * Month - July: The month of July stands out as a period with heightened delays. This could be due to seasonal factors, such as increased tourism or special events, which elevate passenger volumes. Additionally, weather conditions such as summer storms may impact service reliability during this time.
 
-* Based on the Paretto Chart and wroking with the clean data, we could identify the categories that causes the 80% of our delays.
+* Based on the Pareto Chart and working with the clean data, we identified the categories that cause 80% of our delays.
 
 ![Paretto](/img/02_results/01_80-20.png)
 
