@@ -179,7 +179,7 @@ The  testcase saved at directory   '../02_data_processing/02_model_training.ipyn
 
 
 **1. Binary Classification Focus**  
-The primary aim of the model is to determine whether a particular outcome (e.g., delay vs. no delay) will occur. Logistic Regression is specifically designed for binary classification, mapping inputs to a probability between 0 and 1. As such, it aligns well with scenarios where the dependent variable is a yes/no or true/false type of outcome.
+The primary aim of the model is to determine whether a particular outcome (e.g., high delay risk vs. low delay risk) will occur. Logistic Regression is specifically designed for binary classification, mapping inputs to a probability between 0 and 1. As such, it aligns well with scenarios where the dependent variable is a yes/no or true/false type of outcome.
 
 **2. Suitability for Categorical Predictors**  
 A significant portion of the dataset consists of categorical variables. Logistic Regression readily handles categorical data through encoding techniques such as one-hot encoding. This approach permits the model to learn how each category influences the log-odds of the target outcome. Furthermore, the model’s observed accuracy suggests that the chosen encoding and feature preparation steps effectively leverage the categorical information.
@@ -241,7 +241,7 @@ The delays realted to those categories causing service interruptions during the 
 
 * Month - July: The month of July stands out as a period with heightened delays. This could be due to seasonal factors, such as increased tourism or special events, which elevate passenger volumes. Additionally, weather conditions such as summer storms may impact service reliability during this time.
 
-* Based on the Paretto Chart and wroking with the clean data, we could identify the categories that causes the 80% of our delays.
+* Based on the Pareto Chart and working with the clean data, we identified the categories that cause 80% of our delays.
 
 ![Paretto](/img/02_results/01_80-20.png)
 
