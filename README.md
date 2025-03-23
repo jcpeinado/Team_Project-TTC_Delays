@@ -76,8 +76,27 @@ We have grouped the codes in categories, as shown in the following file: [`code_
 
 ###     3. Data Celaning and Processing
 
-###     4. Model Training and Development
+Handling Missing Values: We identified missing values in the dataset, particularly in the Min Delay and Code columns. Missing values were imputed using median values for numerical columns and mode for categorical columns.
+Outlier Detection & Treatment: Boxplots revealed extreme outliers in Min Delay, with some delays exceeding 700 minutes. Values beyond the 99th percentile were capped to improve model performance.
+Feature Engineering:
+Created new categorical features by grouping similar Code values into broader categories.
+Added a Peak Hours flag to differentiate rush hour delays from off-peak delays.
+Extracted Day of the Week and Month from Date to identify potential time-based patterns.
+Final Dataset Storage: The cleaned dataset was stored as df_cleaned.csv in the processed_data directory.
 
+###     4. Model Training and Development
+Baseline Model Selection:
+We initially tested Decision Trees and Random Forests for classification but found Logistic Regression to be the best-performing model in terms of interpretability and computational efficiency.
+Feature Scaling & Encoding:
+Applied StandardScaler to normalize numerical features (Min Delay, Min Gap).
+Used one-hot encoding for categorical features like Line, Bound, and Code Category.
+Hyperparameter Tuning:
+GridSearchCV was used to optimize hyperparameters such as C (regularization strength) for Logistic Regression.
+Model Performance:
+Achieved an F1-score of 0.81 on the test set.
+Precision-recall analysis indicated that the model effectively differentiates between high and low-risk delay scenarios.
+Model Deployment:
+The trained model and its preprocessing pipeline were saved using joblib for easy deployment.
 ###     5. Model Selection
 
 ## Results
